@@ -1,0 +1,162 @@
+@import
+url('https://googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+  padding:0;
+  margin:0;
+  font-family:'Open Sans;
+}
+body{
+  width:90%;
+  margin:20px auto;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-right:15px;
+}
+#logomenu{
+  display:flex;
+  align-items:center;
+}
+#logomenu a{
+  text-decoration:none;
+  color:#000;
+  margin:0 2rem;
+  font-weight:bold;
+}
+#inicioregistro #buttonOne{
+  text-decoration:none;
+  border:1px solid #000;
+  border-radius:20px;
+  padding:5px 15px;
+  color:#000;
+  margin:0 10px;
+}
+#inicioregistro #buttonTwo{
+  text-decoration:none;
+  border:1px solid rgb(255, 255, 255);
+  background-color:#000;
+  border-radius:20px;
+  padding:5px 15px;
+  color:#fff;
+}
+.sectionmain{
+  background-color:#0c7d34;
+  text-align:center;
+  padding:10px 0;
+  color:#fff;
+  margin-top:25px;
+}
+.sectionmain h1{
+  font-size:3 rem
+  margin-bottom:20px;
+  margin-top:20px;
+  letter-spacing:10px;
+}
+.sectionmain p{
+  margin-bottom:20px;
+  font-size:1.2rem;
+}
+.sectionmain p a{
+  color:#fff;
+}
+.sectionalebrijeuno{
+  margin-top:20px;
+  background-color:#7d0c24;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  height:400px;
+}
+.imgalebrijeuno figure{
+  background-image:url(../img/alebrijeOaxaca.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+}
+.sectionalebrijeuno .headingalebrijeuno{
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+}
+.sectionalebrijeuno .headingalebrijeuno h2{
+  color:#fff;
+  font-size:2.5rem;
+  letter-spacing:10px;
+  margin-bottom:40px;
+  font-weight:100;
+}
+.sectionalebrijeuno .headingalebrijeuno p{
+  color:#fff;
+  margin-bottom:50px;
+  line-height:35px;
+  letter-spacing:2px;
+  font-size:1.2rem;
+  font-weight:100;
+}
+.sectionalebrijeuno .headingalebrijeuno a{
+  text-decoration:none;
+  color:#fff;
+  font-weight:100;
+  border:1px solid #fff;
+  padding:5px 15px;
+}
+.sectionalebrijedos{
+  margin-top:20px;
+  background-color:#7d0c24;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  height:400px;
+}
+
+.imgalebrijedos figure{
+  background-image:url(../img/anubis.webp);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+}
+
+.sectionalebrijedos .headingalebrijedos{
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+}
+.sectionalebrijedos .headingalebrijedos h2{
+  color:#fff;
+  font-size:2.5rem;
+  letter-spacing:10px;
+  margin-bottom:40px;
+  font-weight:100;
+}
+.sectionalebrijedos .headingalebrijedos p{
+  color:#fff;
+  margin-bottom:50px;
+  line-height:35px;
+  letter-spacing:2px;
+  font-size:1.2rem;
+  font-weight:100;
+}
+.sectionalebrijedos .headingalebrijedos a{
+  text-decoration:none;
+  color:#fff;
+  font-weight:100;
+  border:1px solid #fff;
+  padding:5px 15px;
+  border-radius:50px;
+}
+footer{
+  width:95%;
+  margin:0 auto;
+  border-top:2px solid #ccc;
+  margin-top:20px;
+  padding-top:20px;
+}
+.icons-container a{
+  text-decoration:none;
+  margin:0 5px;
+}
+footer p{
+  margin-top:20px;
+}
